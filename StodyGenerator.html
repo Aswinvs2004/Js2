@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magical Story Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Welcome to the Magical Story Generator!</h1>
+
+
+    <div class="image-button-container">
+        <button onclick="generatePhrase('nouns')"><img src="./img1.webp" alt="Magical Friend" class="image-button"></button>
+        <button onclick="generatePhrase('verbs')"><img src="./img2.webp" alt="Enchanting Action" class="image-button"></button>
+        <button onclick="generatePhrase('adjectives')"><img src="./img3.png" alt="Whimsical Adjective" class="image-button"></button>
+    </div>
+
+   
+    <div class="button-container">
+        <button id="resetBtn" onclick="resetStory()">Reset Story</button>
+        <button id="fairyID" onclick="addfairyID()">Add Your Fairy ID</button>
+        <button id="generateStoryBtn" onclick="generateStory()">Create Your Magical Tale</button>
+    </div>
+
+    <div id="storyOutput"></div>
+</div>
+
+<script src="Story.js"></script>
+</body>
+</html>

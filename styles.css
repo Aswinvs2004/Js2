@@ -1,0 +1,56 @@
+body {
+    font-family: 'Comic Sans MS', cursive;
+    background-image: linear-gradient(120deg, #ffebcd, #add8e6);
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    color: #333;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+
+.image-button {
+    width: 40px; 
+    height: 40px; 
+}
+
+button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #ffcc66;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
+
+#generateStoryBtn {
+    background-color: #ff6666;
+}
+
+#addStudentInfoBtn {
+    background-color: #33cc33;
+}
+
+/* Additional style for Reset Story button */
+.reset-button {
+    background-color: #3399ff;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 10px; 
